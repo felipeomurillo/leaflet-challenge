@@ -1,0 +1,46 @@
+html,
+body,
+#mapid { 
+    height: 95%; 
+    width: 100%;
+    justify-self: center;
+    background-color: black;
+}
+
+.legend {
+    line-height: 30px; /* height of legend */
+    color: black; 
+    width: auto;
+}
+.legend i {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 5px;
+    opacity: 1.0;
+    
+}
+.info {
+    font-weight: bolder;
+    background: rgba(255,255,255,0.9);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+header {
+    display: block;
+    text-align: center; 
+    background: black;
+    color: white;
+    padding: 0.25em;
+    font-family: 'Merriweather', serif;
+}
+
+h1, h3 {
+    margin:0;
+}
+
+body {
+    margin:0;
+}
